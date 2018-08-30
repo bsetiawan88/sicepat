@@ -1,0 +1,17 @@
+{
+    "name": "bagus/sicepat",
+    "description": "SiCepat API",
+    "require": {
+        "php": "^5.3 || ^7.0",
+        "rmccue/requests": ">=1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bagus\\SiCepat\\": "src/"
+        }
+    },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/bsetiawan88/sicepat"
+    }]
+}
